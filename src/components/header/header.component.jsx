@@ -5,9 +5,9 @@ import './header.styles.scss';
 
 const Header = () => {
   return (
-    <div className="Header">
+    <div className="header">
       <Link to="/" className="logo-container">
-        <Logo />
+        <Logo className="logo" />
       </Link>
       <div className="options">
         <Link className="option" to="/shop">
